@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+.navbar {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a{
+    color: #7D9A65;
+    font-size: 28px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.links a {
+    color: black;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+.links a:hover{
+    color: #7D9A65;
+}
+
+.btn {
+    color: white;
+    background-color: #426B1F;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.section1 {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.section1 .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-family: "Newsreader", serif;
+
+
+}
+
+.section1 button {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.text span {
+    font-style: italic;
+}
+
+.section2 {
+    height: 500px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.img1{
+    width: 30%;
+    height: 100%;
+}
+.img1 img{
+    height: inherit;
+    width: inherit%;
+}
+.img2{
+    width: 40%;
+    height: 60%;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    
+
+}
+.img2 span{
+    font-weight: 600;
+}
+.img2 div:first-child img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center center;
+}
+.section3{
+    height: 400px;
+    display: flex;
+    gap: 40px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    margin-left: 140px;
+}
+.title{
+    width: 20%;
+    height: 100%;
+    font-weight: 600;
+}
+.content{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.content span:nth-child(odd){
+    font-weight: 600;
+}
+.foot{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 24px;
+    color: #7D9A65;
+}

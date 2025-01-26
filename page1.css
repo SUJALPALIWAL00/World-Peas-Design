@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+.navbar {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a{
+    color: #7D9A65;
+    font-size: 28px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.links a {
+    color: black;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+.btn {
+    color: white;
+    background-color: #426B1F;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.title{
+    height: 80px;
+    border-bottom: 2px solid #E6E6E6;
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    gap: 15px;
+    
+}
+.title .cname span:first-child{
+    font-size: 48px;
+    
+}
+.title .name span:nth-child(2){
+    margin-bottom: 5px;
+}
+.filter-btn{
+    margin-bottom: 15px;
+}
+.filter-btn button{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 5px 15px;
+    border-radius: 20px;
+
+}
+.filter-btn button:active{
+    color: white;
+    background-color: #426B1F;
+    
+
+}
+
+.cards{
+    margin-top: 25px;
+    height: 300px;
+    display: flex;
+    gap: 30px;
+    
+}
+
+
+
+.card1 div:nth-child(1){
+    height: 150px;
+    width: 225px;
+     
+}
+.card1 div:nth-child(2){
+    height: 75px;
+    width: 225px;
+}
+.card1 div:nth-child(3){
+    height: 25px;
+    width: 225px;
+}
+.card1 .img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.card2 div:nth-child(1){
+    height: 150px;
+    width: 225px;
+}
+.card2 div:nth-child(2){
+    height: 75px;
+    width: 225px;
+}
+.card2 div:nth-child(3){
+    height: 25px;
+    width: 225px;
+}
+.card2 .img img{
+    width: 100%;
+    height: 100%;
+}
+.name{
+    font-size: 20px;
+}
+.desc{
+    font-size: 14px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.name span:nth-child(3){
+    color: #7D9A65;
+}
+.name , .desc{
+    background-color:#FAFAF5 ;
+}
+img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
